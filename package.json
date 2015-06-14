@@ -1,0 +1,14 @@
+{
+  "name": "simple-mocha-unit-tests",
+  "private": true,
+  "description": "simple test to demonstrate the use of commonjs modules with mocha",
+  "scripts": {
+    "test": "echo \"Error: run npm test from inside the challange directories or do 'npm run test-all'\" && exit 1",
+    "test-all": "mocha '**/*.spec.js'"
+  },
+  "author": "James Hines",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
